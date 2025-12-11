@@ -105,6 +105,8 @@ services:
     cpus: 4.0
     mem_limit: 8G
     memswap_limit: 8G
+    networks:
+      - backend
 
   redis:
     # NOTE: If you want to use Valkey (open source) instead of Redis (source available),
